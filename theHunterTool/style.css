@@ -2,6 +2,7 @@ body{
 	background-color:#000000;
 	font:18px arial;
 	color:#FFFFFF;
+
 }
 
 h1{
@@ -13,15 +14,10 @@ h1{
 
 
 h2{
-	font:22px arial;
+	font:arial;
+	font-size: 100%;
 	color:#FFFFFF;
 	text-align:center;
-}
-
-
-h3{
-	font:20px arial;
-	color:#FFFFFF;
 }
 div.gridDiv3cols{
 	display: grid;
@@ -48,4 +44,17 @@ a.topMenuLink:link, a.topMenuLink:visited {
 img.imageLink{
 	width:90%;
 	padding: 5% 5%;
+}
+
+.animalImageContainer {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.scoreText {
+	position: absolute;
+	bottom: 5%;
+	left: 10%;
+	font-size: 170%;
+	text-shadow: 2px 2px #000000;
 }
