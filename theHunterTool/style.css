@@ -1,0 +1,31 @@
+body{
+	background-color:#000000;
+	font:18px arial;
+	color:#FFFFFF;
+}
+
+h1{
+	font:24px arial;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+
+h2{
+	font:22px arial;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+
+h3{
+	font:20px arial;
+	color:#FFFFFF;
+}
+div.gridDiv3cols{
+	display: grid;
+	margin: auto;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto;
+	max-width: 1080px;
+}
