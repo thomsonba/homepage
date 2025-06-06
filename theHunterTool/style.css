@@ -5,7 +5,8 @@ body{
 }
 
 h1{
-	font:24px arial;
+	font:arial;
+	font-size: 133%;
 	color:#FFFFFF;
 	text-align:center;
 }
@@ -27,17 +28,24 @@ div.gridDiv3cols{
 	margin: auto;
 	grid-template-columns: auto auto auto;
 	grid-template-rows: auto auto auto;
-	max-width: 1080px;
-}
-a:link, a:visited {
-  background-color: #000000;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+	max-width: 600px;
+	gap: 8px;
 }
 
-a:hover, a:active {
-  background-color: #264d00;
+a.topMenuLink:link, a.topMenuLink:visited {
+	background-color: #000000;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 8px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	border-radius: 6px;
+}
+
+img.imageLink{
+	width:90%;
+	padding: 5% 5%;
 }
