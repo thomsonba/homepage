@@ -28,6 +28,10 @@ div.gridDiv3cols{
 	gap: 8px;
 }
 
+a:link, a:visited{
+	color: lightgray;
+}
+
 a.topMenuLink:link, a.topMenuLink:visited {
 	background-color: #000000;
 	color: white;
