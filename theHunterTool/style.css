@@ -29,3 +29,15 @@ div.gridDiv3cols{
 	grid-template-rows: auto auto auto;
 	max-width: 1080px;
 }
+a:link, a:visited {
+  background-color: #000000;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #264d00;
+}
