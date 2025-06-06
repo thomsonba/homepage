@@ -1,19 +1,30 @@
 body{
-	background-color:#000000;
+	background-color:black;
 	font:18px arial;
-	color:#FFFFFF;
-
+	color:white;
+}
+p{
+	font:arial;
+	font-size: 133%;
+	color:white;
+	text-align:center;
 }
 h1{
 	font:arial;
 	font-size: 133%;
-	color:#FFFFFF;
+	color:white;
 	text-align:center;
 }
 h2{
 	font:arial;
 	font-size: 100%;
-	color:#FFFFFF;
+	color:white;
+	text-align:center;
+}
+h6{
+	font:arial;
+	font-size: 70%;
+	color:white;
 	text-align:center;
 }
 div.gridDiv3cols{
@@ -21,7 +32,15 @@ div.gridDiv3cols{
 	margin: auto;
 	grid-template-columns: auto auto auto;
 	grid-template-rows: auto auto auto;
-	max-width: 600px;
+	max-width: 500px;
+	gap: 8px;
+}
+div.gridDiv1col{
+	display: grid;
+	margin: auto;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	max-width: 1000px;
 	gap: 8px;
 }
 
@@ -29,15 +48,20 @@ a:link, a:visited{
 	color: lightgray;
 }
 
+a.ammoLink:link, a.ammoLink:visited{
+	color: white;
+	text-decoration:none;
+}
+
 a.topMenuLink:link, a.topMenuLink:visited {
-	background-color: #000000;
+	background-color: black;
 	color: white;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	padding: 8px 8px;
 	border-style: solid;
-	border-color: #FFFFFF;
+	border-color: white;
 	border-width: 1px;
 	border-radius: 6px;
 }
@@ -65,8 +89,8 @@ img.imageLink{
 	position: absolute;
 	bottom: 5%;
 	left: 10%;
-	font-size: 170%;
-	text-shadow: 2px 2px #000000;
+	font-size: 133%;
+	text-shadow: 1px 1px #000000;
 }
 .centeredImage{
 	display: block;
@@ -77,7 +101,24 @@ img.imageLink{
 
 iframe.ammoFrame{
 	display:block;
-/*	border:none;*/
+	border:none;
 	max-width: 800px;
 	width: 100%;
+}
+div.ammoFrameDiv{
+	display: flex;
+	justify-content: center;
+	height: 50%;
+}
+div.topMenuFrameDiv{
+	display: flex;
+	justify-content: center;
+	height: 100px;
+}
+div.ammoListDiv{
+	padding: 2px 2px;
+	border-style: solid;
+	border-color: darkgrey;
+	border-width: 1px;
+	border-radius: 6px;
 }
