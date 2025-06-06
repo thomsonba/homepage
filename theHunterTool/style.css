@@ -4,15 +4,12 @@ body{
 	color:#FFFFFF;
 
 }
-
 h1{
 	font:arial;
 	font-size: 133%;
 	color:#FFFFFF;
 	text-align:center;
 }
-
-
 h2{
 	font:arial;
 	font-size: 100%;
@@ -55,10 +52,32 @@ img.imageLink{
 	text-align: center;
 	color: white;
 }
+
+.animalImageContainer2 {
+	position: relative;
+	max-width: 144px;
+	text-align: center;
+	color: white;
+	margin: auto;
+}
+
 .scoreText {
 	position: absolute;
 	bottom: 5%;
 	left: 10%;
 	font-size: 170%;
 	text-shadow: 2px 2px #000000;
+}
+.centeredImage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px 12px;
+}
+
+iframe.ammoFrame{
+	display:block;
+/*	border:none;*/
+	max-width: 800px;
+	width: 100%;
 }
