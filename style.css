@@ -1,23 +1,30 @@
 body{
-	background-color:#CFCFCF;
+	background-color:black;
 	font:20px arial;
+	color:white;
 	text-align:center;
 }
 
 h1{
-	font:20px arial;
-	color:#3E3E3E;
+	font:26px arial;
+	color:white;
 	text-align:center;
 }
 
 
 h2{
-	font:18px arial;
-	color:red;
+	font:24px arial;
+	color:white;
 	text-align:center;
 }
 
 
 h3{
-	font:18px arial;
+	color:white;
+	font:22px arial;
+}
+
+a:link, a:visited{
+	color: white;
+	text-decoration:none;
 }
